@@ -1,0 +1,68 @@
+{
+  "_from": "@repoch/pipe@^0.1.0",
+  "_id": "@repoch/pipe@0.1.1",
+  "_inBundle": false,
+  "_integrity": "sha1-cLOxafbRIjzyIWnLFphgHrzQhS8=",
+  "_location": "/@repoch/pipe",
+  "_phantomChildren": {
+    "isomorphic-fetch": "2.2.1",
+    "loose-envify": "1.3.1",
+    "promise": "7.3.1",
+    "setimmediate": "1.0.5",
+    "ua-parser-js": "0.7.14"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@repoch/pipe@^0.1.0",
+    "name": "@repoch/pipe",
+    "escapedName": "@repoch%2fpipe",
+    "scope": "@repoch",
+    "rawSpec": "^0.1.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.0"
+  },
+  "_requiredBy": [
+    "/@repoch/modal"
+  ],
+  "_resolved": "http://registry.npm.intra.weibo.cn/@repoch/pipe/download/@repoch/pipe-0.1.1.tgz",
+  "_shasum": "70b3b169f6d1223cf22169cb1698601ebcd0852f",
+  "_spec": "@repoch/pipe@^0.1.0",
+  "_where": "/Users/yuqi/Documents/workspace/finance/front/node_modules/@repoch/modal",
+  "author": {
+    "name": "repoch"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "15.5.8",
+    "react": "15.5.0",
+    "react-dom": "15.5.0"
+  },
+  "deprecated": false,
+  "description": "模块注入组件",
+  "engines": {
+    "node": ">=5.0 <6"
+  },
+  "homepage": "http://git.intra.weibo.com/repoch/pipe.git",
+  "keywords": [
+    "模块注入"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@repoch/pipe",
+  "repository": {
+    "type": "git",
+    "url": "git+http://git.intra.weibo.com/repoch/pipe.git"
+  },
+  "scripts": {},
+  "version": "0.1.1",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">=5.0 <6"
+      },
+      "pkgid": "@repoch/pipe@0.1.1"
+    }
+  ]
+}

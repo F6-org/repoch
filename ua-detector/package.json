@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "wbpay-repoch"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "ua解析器",
+  "devDependencies": {},
+  "keywords": [
+    "ua",
+    "fromWeibo"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "wbpay-repoch/ua-detector",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xieyuqi007/repoch/ua-detector.git"
+  },
+  "scripts": {},
+  "version": "0.1.0"
+}

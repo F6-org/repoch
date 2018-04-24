@@ -1,0 +1,26 @@
+{
+  "author": {
+    "name": "wbpay-repoch"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "wbpay-repoch/create-backgroud-tasks": "0.1.2",
+    "wbpay-repoch/ua-detector": "^0.1.0",
+    "wbpay-repoch/weibo-jsbridge": "^0.1.0"
+  },
+  "deprecated": false,
+  "description": "日志上报脚本",
+  "devDependencies": {},
+  "keywords": [
+    "log"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "wbpay-repoch/logger",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xieyuqi007/repoch/logger.git"
+  },
+  "scripts": {},
+  "version": "0.1.6"
+}
