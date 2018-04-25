@@ -30,7 +30,7 @@ export default class Test extends React.Component {
 
 ```
 import React from 'react';
-import LazyLoad from '@repoch/toast';
+import LazyLoad from 'wb-repoch/toast';
 
 export default class Test extends React.Component {
     render() {

@@ -3,7 +3,7 @@
 ## 使用方法
 
 ```
-import Transition from '@repoch/transition';
+import Transition from 'wb-repoch/transition';
 
 export default class Test extends React.Component {
 	state = {

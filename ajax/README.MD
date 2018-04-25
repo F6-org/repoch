@@ -4,7 +4,7 @@
 
 ```
 import React from 'react';
-import Calendar from '@repoch/calendar';
+import Calendar from 'wb-repoch/calendar';
 
 export default class Test extends React.Component {
     state = {

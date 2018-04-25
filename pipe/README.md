@@ -3,7 +3,7 @@
 ## 使用方法
 
 ```
-import Pipe from '@repoch/pipe';
+import Pipe from 'wb-repoch/pipe';
 
 export default class Test extends React.Component {
     render() {

@@ -24,7 +24,7 @@
   "name": "wbpay-repoch/ajax",
   "repository": {
     "type": "git",
-    "url": "http://git.intra.weibo.com/repoch/ajax.git"
+    "url": "https://github.com/F6-org/repoch.git"
   },
   "scripts": {},
   "version": "0.1.8"
