@@ -1,6 +1,6 @@
 {
   "author": {
-    "name": "wbpay-repoch"
+    "name": "@wb-repoch"
   },
   "browserify": {},
   "bundleDependencies": false,
@@ -18,7 +18,7 @@
   ],
   "license": "MIT",
   "main": "lib",
-  "name": "wbpay-repoch/history",
+  "name": "@wb-repoch/history",
   "repository": {
     "type": "git",
     "url": "https://github.com/xieyuqi007/repoch/history.git"

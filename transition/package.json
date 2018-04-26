@@ -1,6 +1,6 @@
 {
   "author": {
-    "name": "wbpay-repoch"
+    "name": "@wb-repoch"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -20,7 +20,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "wbpay-repoch/transition",
+  "name": "@wb-repoch/transition",
   "repository": {
     "type": "git",
     "url": "git+http://git.intra.weibo.com/repoch/transition.git"
@@ -33,7 +33,7 @@
       "required": {
         "node": ">=5.0 <6"
       },
-      "pkgid": "wbpay-repoch/transition@0.1.3"
+      "pkgid": "@wb-repoch/transition@0.1.3"
     }
   ]
 }

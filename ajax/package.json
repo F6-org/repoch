@@ -1,12 +1,12 @@
 {
   "author": {
-    "name": "wbpay-repoch"
+    "name": "@wb-repoch"
   },
   "bundleDependencies": false,
   "dependencies": {
-    "wbpay-repoch/format": "^0.1.0",
-    "wbpay-repoch/jump-page": "^0.1.0",
-    "wbpay-repoch/logger": "^0.1.0"
+    "@wb-repoch/format": "^0.1.0",
+    "@wb-repoch/jump-page": "^0.1.0",
+    "@wb-repoch/logger": "^0.1.0"
   },
   "deprecated": false,
   "description": "基于axios 0.15.3的ajax封装",
@@ -21,7 +21,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "wbpay-repoch/ajax",
+  "name": "@wb-repoch/ajax",
   "repository": {
     "type": "git",
     "url": "https://github.com/F6-org/repoch.git"
