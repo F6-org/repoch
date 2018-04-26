@@ -3,7 +3,7 @@ import React from 'react';
 import addEventListener from 'dom-helpers/events/on';
 import querySelectorAll from 'dom-helpers/query/querySelectorAll';
 import pickImage from '../weibo-jsbridge/pick-image';
-import uploader from './uploader';
+import uploader from './lib/uploader';
 import { post, isCommonError } from '../ajax';
 
 function noop() {}
@@ -15,7 +15,7 @@ const PICK_CODE = {
     553: '相关服务未启用'
 };
 
-export default class UploadPic extends React.Component {
+export default class Upload extends React.Component {
     static propTypes = {
         useJsBridge: PropTypes.bool, // 用JSbridge还是文件上传
         checkSize: PropTypes.bool, // 是否检查文件宽高

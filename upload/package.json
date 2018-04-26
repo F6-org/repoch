@@ -1,6 +1,6 @@
 {
   "author": {
-    "name": "c2p"
+    "name": "wbpay-repoch"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -16,12 +16,17 @@
   "keywords": [
     "upload"
   ],
+  "homepage": "http://git.intra.weibo.com/repoch/upload.git",
+  "keywords": [
+    "上传文件组件"
+  ],
   "license": "MIT",
-  "main": "index",
+  "main": "index.js",
   "name": "wbpay-repoch/upload",
   "repository": {
     "type": "git",
-    "url": "https://github.com/F6-org/repoch.git",
+    "url": "git+http://git.intra.weibo.com/repoch/upload.git"
   },
+  "scripts": {},
   "version": "0.3.3"
 }
