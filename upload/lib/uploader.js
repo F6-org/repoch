@@ -1,6 +1,6 @@
 import querySelectorAll from 'dom-helpers/query/querySelectorAll';
 import addEventListener from 'dom-helpers/events/on';
-import { post } from '../ajax';
+import { post } from '../../ajax';
 
 var FILE_SIZE_MB = 1024 * 1024;
 var MIME_EXT_MAPPING = {
