@@ -1,6 +1,6 @@
 {
   "name": "wbpay-repoch",
-  "version": "1.2.4",
+  "version": "1.2.6",
   "description": "wbpay-repoch",
   "scripts": {
     "h5.build": "NODE_ENV=production webpack -p --config ./src/h5/webpack.production.config.babel.js"
