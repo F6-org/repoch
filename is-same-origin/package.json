@@ -1,6 +1,6 @@
 {
   "author": {
-    "name": "@wb-repoch"
+    "name": "wbpay-repoch"
   },
   "bundleDependencies": false,
   "dependencies": {},
@@ -12,7 +12,7 @@
   ],
   "license": "MIT",
   "main": "index",
-  "name": "@wb-repoch/is-same-origin",
+  "name": "wbpay-repoch/is-same-origin",
   "repository": {
     "type": "git",
     "url": "https://github.com/xieyuqi007/repoch/is-same-origin.git"

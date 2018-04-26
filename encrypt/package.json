@@ -1,6 +1,6 @@
 {
   "author": {
-    "name": "@wb-repoch"
+    "name": "wbpay-repoch"
   },
   "bundleDependencies": false,
   "dependencies": {},
@@ -13,7 +13,7 @@
   ],
   "license": "MIT",
   "main": "index",
-  "name": "@wb-repoch/encrypt",
+  "name": "wbpay-repoch/encrypt",
   "repository": {
     "type": "git",
     "url": "https://github.com/xieyuqi007/repoch/encrypt.git"

@@ -1,6 +1,6 @@
 {
   "author": {
-    "name": "@wb-repoch"
+    "name": "wbpay-repoch"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -14,10 +14,10 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "@wb-repoch/weibo-jsbridge",
+  "name": "wbpay-repoch/weibo-jsbridge",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xieyuqi007/repoch/weibo-jsbridge.git"
+    "url": "https://github.com/F6-org/repoch.git",
   },
   "scripts": {},
   "version": "0.1.0"

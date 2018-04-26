@@ -1,6 +1,6 @@
 {
   "author": {
-    "name": "@wb-repoch"
+    "name": "wbpay-repoch"
   },
   "bundleDependencies": false,
   "dependencies": {},
@@ -13,7 +13,7 @@
   ],
   "license": "MIT",
   "main": "index",
-  "name": "@wb-repoch/dom-helper",
+  "name": "wbpay-repoch/dom-helper",
   "repository": {
     "type": "git",
     "url": "https://github.com/xieyuqi007/repoch/dom-helper.git"

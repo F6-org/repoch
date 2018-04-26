@@ -1,10 +1,10 @@
 {
   "author": {
-    "name": "@wb-repoch"
+    "name": "wbpay-repoch"
   },
   "bundleDependencies": false,
   "dependencies": {
-    "@wb-repoch/encrypt": "^0.1.0"
+    "wbpay-repoch/encrypt": "^0.1.0"
   },
   "deprecated": false,
   "description": "字符串格式化",
@@ -19,7 +19,7 @@
   ],
   "license": "MIT",
   "main": "index",
-  "name": "@wb-repoch/format",
+  "name": "wbpay-repoch/format",
   "repository": {
     "type": "git",
     "url": "https://github.com/xieyuqi007/repoch/format.git"

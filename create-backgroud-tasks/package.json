@@ -1,10 +1,10 @@
 {
   "author": {
-    "name": "@wb-repoch"
+    "name": "wbpay-repoch"
   },
   "bundleDependencies": false,
   "dependencies": {
-    "@wb-repoch/dom-helper": "^0.1.4",
+    "wbpay-repoch/dom-helper": "^0.1.4",
     "warning": "3.0.0"
   },
   "deprecated": false,
@@ -14,7 +14,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "@wb-repoch/create-backgroud-tasks",
+  "name": "wbpay-repoch/create-backgroud-tasks",
   "repository": {
     "type": "git",
     "url": "https://github.com/xieyuqi007/repoch/create-backgroud-tasks.git"

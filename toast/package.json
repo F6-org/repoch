@@ -1,11 +1,11 @@
 {
   "author": {
-    "name": "@wb-repoch"
+    "name": "wbpay-repoch"
   },
   "bundleDependencies": false,
   "dependencies": {
-    "@wb-repoch/modal": "^0.1.0",
-    "@wb-repoch/with-styles": "^0.1.0",
+    "wbpay-repoch/modal": "^0.1.0",
+    "wbpay-repoch/with-styles": "^0.1.0",
     "prop-types": "15.5.8",
     "react": "15.5.0"
   },
@@ -20,7 +20,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "@wb-repoch/toast",
+  "name": "wbpay-repoch/toast",
   "repository": {
     "type": "git",
     "url": "git+http://git.intra.weibo.com/repoch/toast.git"
@@ -33,7 +33,7 @@
       "required": {
         "node": ">=5.0 <6"
       },
-      "pkgid": "@wb-repoch/toast@0.1.2"
+      "pkgid": "wbpay-repoch/toast@0.1.2"
     }
   ]
 }

@@ -2,8 +2,8 @@
  * 日志上报脚本
  * @author MrGalaxyn
  */
-import getNetworkType from '@wb-repoch/weibo-jsbridge/network-type';
-import fromWeibo from '@wb-repoch/is-weibo';
+import getNetworkType from 'wbpay-repoch/weibo-jsbridge/network-type';
+import fromWeibo from 'wbpay-repoch/is-weibo';
 
 let lid, pid, tid;
 let errSended = false;

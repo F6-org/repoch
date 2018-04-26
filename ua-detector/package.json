@@ -1,6 +1,6 @@
 {
   "author": {
-    "name": "@wb-repoch"
+    "name": "wbpay-repoch"
   },
   "bundleDependencies": false,
   "dependencies": {},
@@ -13,7 +13,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "@wb-repoch/ua-detector",
+  "name": "wbpay-repoch/ua-detector",
   "repository": {
     "type": "git",
     "url": "https://github.com/xieyuqi007/repoch/ua-detector.git"

@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "wbpay-repoch"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "wbpay-repoch/modal": "^0.3.2",
+    "prop-types": "15.5.10",
+    "react": "16.0.0",
+    "react-dom": "16.0.0"
+  },
+  "deprecated": false,
+  "description": "警告弹层组件",
+  "homepage": "https://github.com/F6-org/repoch.git",
+  "keywords": [
+    "警告弹层"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "wbpay-repoch/alert",
+  "scripts": {},
+  "version": "0.3.1"
+}

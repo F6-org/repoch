@@ -1,0 +1,27 @@
+{
+  "author": {
+    "name": "c2p"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "wbpay-repoch/ajax": "^0.2.0",
+    "wbpay-repoch/weibo-jsbridge": "^0.1.0",
+    "dom-helpers": "2.4.0",
+    "prop-types": "15.5.10",
+    "react": "16.0.0",
+    "react-dom": "16.0.0"
+  },
+  "deprecated": false,
+  "description": "上传文件组件",
+  "keywords": [
+    "upload"
+  ],
+  "license": "MIT",
+  "main": "index",
+  "name": "wbpay-repoch/upload",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/F6-org/repoch.git",
+  },
+  "version": "0.3.3"
+}
