@@ -1,7 +1,7 @@
 import React  from 'react';
-import styles from './TopNav.scss';
+import styles from './topNav.scss';
 
-export default class TopNav extends React.Component {
+export default class topNav extends React.Component {
 
     constructor(props) {
         super(props);
