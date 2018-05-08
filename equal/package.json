@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "repoch"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "深度比较两个对象",
+  "devDependencies": {},
+  "keywords": [
+    "shallowequal",
+    "deepequal"
+  ],
+  "license": "MIT",
+  "main": "index",
+  "name": "wbpay-repoch/equal",
+  "repository": {
+    "type": "git",
+    "url": "http://git.intra.weibo.com/repoch/equal.git"
+  },
+  "scripts": {},
+  "version": "0.1.1"
+}

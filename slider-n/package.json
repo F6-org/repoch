@@ -1,0 +1,24 @@
+{
+  "author": {
+    "name": "wbpay-repoch"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "wbpay-repoch/equal": "^0.1.0",
+    "wbpay-repoch/with-styles": "^0.3.0",
+    "prop-types": "15.5.10",
+    "react": "16.0.0",
+    "react-dom": "16.0.0"
+  },
+  "deprecated": false,
+  "description": "轮播图组件(样式n)",
+  "homepage": "http://git.intra.weibo.com/repoch/slider-n.git",
+  "keywords": [
+    "slider"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "wbpay-repoch/slider-n",
+  "scripts": {},
+  "version": "0.3.0"
+}
