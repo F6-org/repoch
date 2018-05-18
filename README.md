@@ -1,3 +1,4 @@
+```javascript
 //现有组件调用DEMO
 import './index.style.scss';
 import React, {Component} from 'react';
@@ -112,4 +113,4 @@ class Building extends Component {
 
 export default setTitle('微博抓娃娃')(Building);
 
-
+```
