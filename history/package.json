@@ -1,6 +1,6 @@
 {
   "author": {
-    "name": "@wb-repoch"
+    "name": "wbpay-repoch"
   },
   "browserify": {},
   "bundleDependencies": false,
