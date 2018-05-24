@@ -1,3 +1,4 @@
+## Demo
 ```javascript
 //现有组件调用DEMO
 import './index.style.scss';
@@ -109,6 +110,12 @@ class Building extends Component {
 	}
 }
 
-export default setTitle('微博抓娃娃')(Building);
+export default Building;
 
+```
+
+## Test
+```javascript
+npm install
+npm test
 ```
