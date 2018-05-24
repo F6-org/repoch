@@ -1,10 +1,9 @@
-#cookie相关操作
+#url,跳转相关操作
 
 ```javascript
-import {setCookie, getCookie} from 'wbpay-repoch/cookie'
+import {  scheme, schemekk, navigationCloseAndOpen} from 'wbpay-repoch/navigation'
 
-var PHPSESSID = getCookie('PHPSESSID')
-
-setCookie('PHPSESSID', PHPSESSID + 1)
+var scheme =  scheme('http://www.weibo.com')
+var schemekk =  scheme('http://www.weibo.com')
 
 ```
