@@ -1,3 +1,4 @@
+```javascript
 //现有组件调用DEMO
 import './index.style.scss';
 import React, {Component} from 'react';
@@ -64,8 +65,6 @@ class Building extends Component {
                     <img src="https://wx3.sinaimg.cn/crop.0.0.711.400/90eb2137ly1fqhs9xozoqj20jr0b4ab7.jpg"></img>
                     <img src="https://wx3.sinaimg.cn/crop.0.0.711.400/90eb2137ly1fqhs9xozoqj20jr0b4ab7.jpg"></img>
                     <img src="https://wx3.sinaimg.cn/crop.0.0.711.400/90eb2137ly1fqhs9xozoqj20jr0b4ab7.jpg"></img>
-                    <img src="https://wx3.sinaimg.cn/crop.0.0.711.400/90eb2137ly1fqhs9xozoqj20jr0b4ab7.jpg"></img>
-                    <img src="https://wx3.sinaimg.cn/crop.0.0.711.400/90eb2137ly1fqhs9xozoqj20jr0b4ab7.jpg"></img>
                 </NewSlider>
                 {
                     // <Toast content={ '你好' } show={true}/>
@@ -112,4 +111,4 @@ class Building extends Component {
 
 export default setTitle('微博抓娃娃')(Building);
 
-
+```
