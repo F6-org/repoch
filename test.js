@@ -1,7 +1,7 @@
 import test from 'ava';
-import { scheme , schemekk } from './navigation'
+import { scheme, schemekk, weiboShare } from './navigation'
+
 test('scheme', t => {
-    console.log(scheme)
     t.is(scheme('http://www.baidu.com'),  'sinaweibo://browser?url=' + encodeURIComponent('http://www.baidu.com') )
 });
 
@@ -13,4 +13,10 @@ test('bar', async t => {
     const bar = Promise.resolve('bar');
 
     t.is(await bar, 'bar');
+});
+
+test('weiboShare', async t => {
+    console.log(weiboShare('#测试内容#链接地址：http://www.weibo.com', '1123213827389799'))
+    // console.log(weiboShare('#测试内容#链接地址：http://www.weibo.com'))
+    // t.is(await bar, 'bar');
 });

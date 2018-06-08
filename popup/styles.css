@@ -23,25 +23,25 @@ ul, li, dl, dd, form, p, figure {
     text-align: center;
     padding: .24rem 0;
     /*line-height: 50px;*/
-    font-size: 15px;
+    font-size: .3rem;
 }
 
 .mask .pop .pop_desc_text {
-    margin-top: .16rem;
-    font-size: 14px;
-    line-height: 14px;
+    margin-top: .32rem;
+    font-size: .28rem;
+    line-height: .28rem;
     color: #939393;
 }
 .mask .pop .cancel{
-    font-size: .16rem;
-    margin-top: 5px;
+    font-size: .32rem;
+    margin-top: .1rem;
 }
 .mask .pop .publish{
-    font-size: .16rem;
-    margin-top: 1px;
+    font-size: .32rem;
+    margin-top: .01rem;
 }
 .mask .pop .publish p {
-    font-size: .16rem;
+    font-size: .32rem;
 }
 .layer_bottom_show {
     -webkit-animation: moveToTop .3s ease both;

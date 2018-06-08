@@ -1,0 +1,45 @@
+
+.dialog-wrapper {
+    .dialog-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -1.5rem;
+        margin-left: -2.8rem;
+        width: 5rem;
+        // height: 2.85rem;
+        border-radius: .1rem;
+        padding: .3rem;
+        z-index: 5000;
+        background: #f8f8f8;
+        transition: top .3s cubic-bezier(0.23, 1, 0.32, 1) 0s,
+                    opacity .3s ease-in-out 0s, 
+                    left 0s cubic-bezier(0.23, 1, 0.32, 1) 0s,
+                    z-index 0s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+        
+        opacity: 1;
+        &.transparent {
+            z-index: -1;
+            opacity: 0;
+            top: 47%;
+            left: 100rem;
+            transition: top .3s cubic-bezier(0.23, 1, 0.32, 1) 0s,
+                        opacity .3s ease-out 0s, 
+                        z-index 0s cubic-bezier(0.23, 1, 0.32, 1) .3s,
+                        left 0s cubic-bezier(0.23, 1, 0.32, 1) .3s;
+        }
+        .title {
+            font-size: .36rem;
+            line-height: .36rem;
+            text-align: center;
+            padding-bottom: .25rem;
+        }
+        .content {
+            // height: 1.4rem;
+        }
+        // .actions{
+        //     .btn{
+        //     }
+        // }
+    }
+}
