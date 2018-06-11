@@ -35,7 +35,7 @@ export function navigationCloseAndOpen(url) {
         "sinaweibo://browser/close?scheme=" + encodeURIComponent(url);
 }
 
-export function historyBackAddUrl(curUrl = window.location.href, addUrl) {
+export function historyBackAddUrl(addUrl, curUrl = window.location.href) {
     const { history } = window;
     if (history.pushState && history.length <= 1) {
         history.replaceState("curstate", null, curUrl);

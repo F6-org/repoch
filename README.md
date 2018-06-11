@@ -119,3 +119,20 @@ export default Building;
 npm install
 npm test
 ```
+
+
+## scheme 相关
+
+```javascript
+import { scheme, schemekk, weiboShare,navigationCloseAndOpen, historyBackAddUrl } from './navigation'
+
+
+    window.location.href = scheme('http://www.weibo.com') //普通webview
+    window.location.href = schemekk('http://www.weibo.com') //kk webview
+    window.location.href = weiboShare('#文案#',['12ski22938j3hf00ll', 'klasjdkljiowq12312321]') //发布器(文案[,图片pid])
+    navigationCloseAndOpen('http://www.weibo.com')//关闭当前页并打开新页
+
+    historyBackAddUrl('http://weibo.com/index')//点击返回时添加一个页面
+
+
+```
