@@ -1,9 +1,9 @@
-.container {
+.slider-n-container {
     overflow: hidden;
     position: relative;
 }
 
-.wrapper {
+.slider-n-wrapper {
     overflow: hidden;
     position: relative;
 }

@@ -147,8 +147,8 @@ export default class NewSlider extends React.Component {
 
     render() {
         return (
-            <div style={ Object.assign({}, this.props.containerStyles) } className="container">
-                <div style={ Object.assign({}, this.props.wrapperStyles) } className="wrapper" >
+            <div style={ Object.assign({}, this.props.containerStyles) } className="slider-n-container">
+                <div style={ Object.assign({}, this.props.wrapperStyles) } className="slider-n-wrapper" >
                     { this.buildSliders() }
                 </div>
                 { this.buildDots() }
