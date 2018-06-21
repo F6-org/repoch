@@ -38,7 +38,7 @@
     "test": "ava",
     "h5.build": "NODE_ENV=production webpack -p --config ./src/h5/webpack.production.config.babel.js"
   },
-  "version": "1.8.6",
+  "version": "1.8.7",
   "devDependencies": {
     "ava": "^0.25.0",
     "esm": "^3.0.37"
