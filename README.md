@@ -129,7 +129,7 @@ import { scheme, schemekk, weiboShare,navigationCloseAndOpen, historyBackAddUrl 
 
     window.location.href = scheme('http://www.weibo.com') //普通webview
     window.location.href = schemekk('http://www.weibo.com') //kk webview
-    window.location.href = weiboShare('#文案#',['12ski22938j3hf00ll', 'klasjdkljiowq12312321]') //发布器(文案[,图片pid])
+    window.location.href = weiboShare('我在#微博抓娃娃#畅享盛夏充值狂欢月！必中转盘、2018元现金红包、充值返币券...话不多说，我去充充充不停！'+ encodeURIComponent('https://wawa.weibo.com/promotion/view?id=1528947878169') , ', 'klasjdkljiowq12312321]') //发布器(文案[,图片pid])
     navigationCloseAndOpen('http://www.weibo.com')//关闭当前页并打开新页
 
     historyBackAddUrl('http://weibo.com/index')//点击返回时添加一个页面

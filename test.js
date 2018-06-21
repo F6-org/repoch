@@ -16,7 +16,6 @@ test('bar', async t => {
 });
 
 test('weiboShare', async t => {
-    console.log(weiboShare('#测试内容#链接地址：http://www.weibo.com', '1123213827389799'))
     // console.log(weiboShare('#测试内容#链接地址：http://www.weibo.com'))
-    // t.is(await bar, 'bar');
+    t.is(await bar, 'bar');
 });

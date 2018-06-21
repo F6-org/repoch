@@ -47,3 +47,27 @@ export function historyBackAddUrl(addUrl, curUrl = window.location.href) {
         }
     };
 }
+
+export function generateUrl(url = "", additon = {}, reserve = []) {
+    var searchString = window.location.search,
+        query = {},
+        reserve = [].concat(reserve),
+        queryArr = searchString
+            .substr(1, searchString.length)
+            .split("&")
+            .map(item => {
+                var [key, value] = item.split("=");
+
+                if (reserve.indexOf(key) !== -1) {
+                    query[key] = value;
+                }
+            }),
+        additon = Object.assign(additon,  query ),
+        newQuery = [];
+
+    for (var k in additon) {
+        newQuery.push(`${k}=${additon[k]}`);
+    }
+
+    return url + "?" + newQuery.join("&");
+}
