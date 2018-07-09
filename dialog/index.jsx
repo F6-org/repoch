@@ -73,20 +73,8 @@ class Dialog extends React.Component {
                         onClose={(e) => { this.onClose(e) } }
                         />
                 }
-                <div ref='content'
-                    className="transparent dialog-content"
-                    style={this.state.style}
-                    >
-                    {
-                        !!title &&
-                        <div className='title'>{title}</div>
-                    }
-                    <div className='content'>
-                        {React.Children.toArray(children)}
-                    </div>
-                    <div className='actions clearfix'>
-                        {React.Children.toArray(actions)}
-                    </div>
+                <div ref='content' className="transparent dialog-content">
+                    {React.Children.toArray(children)}
                 </div>
             </div>
         );

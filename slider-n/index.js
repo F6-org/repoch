@@ -37,13 +37,13 @@ export default class NewSlider extends React.Component {
     }
 
     componentDidMount = () => {
-        this.swipe = Swipe(ReactDOM.findDOMNode(this), Object.assign({}, this.props, { callback: this.handleCallBack() }));
+        this.swipe = Swipe(this.dom, Object.assign({}, this.props, { callback: this.handleCallBack() }));
     }
 
     componentDidUpdate = (prevProps) => {
         if (this.props.reinitSwipeOnUpdate || this.props.children.length !== prevProps.children.length) {
             this.swipe.kill();
-            this.swipe = Swipe(ReactDOM.findDOMNode(this), Object.assign({}, this.props, { callback: this.handleCallBack() }));
+            this.swipe = Swipe(this.dom, Object.assign({}, this.props, { callback: this.handleCallBack() }));
         }
       
         if (this.props.slideToIndex || this.props.slideToIndex === 0) {
@@ -147,7 +147,7 @@ export default class NewSlider extends React.Component {
 
     render() {
         return (
-            <div style={ Object.assign({}, this.props.containerStyles) } className="slider-n-container">
+            <div  ref={e=> this.dom = e} style={ Object.assign({}, this.props.containerStyles) } className="slider-n-container">
                 <div style={ Object.assign({}, this.props.wrapperStyles) } className="slider-n-wrapper" >
                     { this.buildSliders() }
                 </div>

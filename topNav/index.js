@@ -32,10 +32,10 @@ export default class TopNav extends React.Component {
     }
 
     setContainerScrollLeft = (index) => {
-        let allLi = this.refs.nav_container.querySelectorAll('li');
-        let container_w = this.refs.nav_container.clientWidth;
+        let allLi = this.nav_container.querySelectorAll('li');
+        let container_w = this.nav_container.clientWidth;
         let w = 0;
-        let originOffsetW = this.refs.nav_container.scrollLeft;
+        let originOffsetW = this.nav_container.scrollLeft;
         let offsetW = 0;
 
         for (let i = 0, len = allLi.length; i < len; i++) {
@@ -59,9 +59,9 @@ export default class TopNav extends React.Component {
 
         function animateFunc() {
             count++;
-            if (!that.refs.nav_container) { return; }
+            if (!that.nav_container) { return; }
 
-            that.refs.nav_container.scrollLeft += step;
+            that.nav_container.scrollLeft += step;
             if (count < 15) {
                 window.requestAnimationFrame(animateFunc);
             }
