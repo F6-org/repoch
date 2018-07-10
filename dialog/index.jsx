@@ -11,6 +11,8 @@ class Dialog extends React.Component {
         super(props);
 
         this.timer = null;
+        this.dom = {}
+        
         this.state = {
             style: {
             }
@@ -34,14 +36,14 @@ class Dialog extends React.Component {
     componentDidUpdate() {
         document.body.style.overflow = this.props.show ? 'hidden' : ""
 
-        let dom = this.refs.content;
-
+        const dom = this.dom.content;
+        
         if (this.props.show) {
             // $(dom).removeClass('transparent')
-            this.refs.content.remove('transparent')
+            dom.classList.remove('transparent')
         } else {
             // $(dom).addClass('transparent');
-            this.refs.content.add('transparent')
+            dom.classList.add('transparent')
         }
 
     }
@@ -60,22 +62,22 @@ class Dialog extends React.Component {
 
     render() {
 
-        var {title, actions, children} = this.props
+        var {title, actions, children, className, show} = this.props
 
         return (
-            <div ref="dialog-wrapper"
-                className="dialog-wrapper"
+            <div className={`dialog-wrapper ${className}`}
                 onTouchMove={e=> this.handleTouchMove(e)}
                 // style={{ display: this.props.show ? "initial" : 'none' }}
                 >
                 {
-                    <Mask show={this.props.show}
-                        onClose={(e) => { this.onClose(e) } }
-                        />
+                 
                 }
-                <div ref='content' className="transparent dialog-content">
+                <div ref={ e => this.dom.content = e} className={`${show?'':'transparent'} dialog-content`}>
                     {React.Children.toArray(children)}
                 </div>
+                <Mask show={show}
+                onClose={(e) => { this.onClose(e) } }
+                />
             </div>
         );
     }
