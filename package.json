@@ -6,18 +6,14 @@
   "dependencies": {
     "animate.css": "^3.5.1",
     "babel-polyfill": "^6.7.4",
-    "classnames": "^2.2.3",
     "dom-helpers": "^3.3.1",
     "es6-promise": "^4.1.0",
     "fastclick": "^1.0.6",
     "isomorphic-fetch": "^2.2.1",
     "jquery": "^2.2.1",
     "lodash": "^4.17.4",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
     "react-echarts": "^0.1.1",
     "react-router": "^3.0.2",
-    "react-tap-event-plugin": "^0.2.2",
     "superagent": "^1.8.3",
     "follow-redirects": "^1.4.1"
   },
@@ -38,7 +34,7 @@
     "test": "ava",
     "h5.build": "NODE_ENV=production webpack -p --config ./src/h5/webpack.production.config.babel.js"
   },
-  "version": "1.8.9",
+  "version": "1.8.10",
   "devDependencies": {
     "ava": "^0.25.0",
     "esm": "^3.0.37"

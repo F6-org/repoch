@@ -47,7 +47,16 @@ export function historyBackAddUrl(addUrl, curUrl = window.location.href) {
         }
     };
 }
-
+/*
+ * 生成目标页地址
+ * 用于保留当前页面url query
+ * 
+ * @params url[string] 目标页url
+ * @params addition[object] 增加字段
+ * @params reserve[string/array] 保留query
+ * 
+ * @return url[string]
+ */
 export function generateUrl(url = "", addition = {}, reserve = []) {
     var searchString = window.location.search,
         query = {},

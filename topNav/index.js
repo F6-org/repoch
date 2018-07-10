@@ -75,7 +75,7 @@ export default class TopNav extends React.Component {
             <div className="m-top-nav">
                 <div className="m-box">
                     <div className="m-box-col nav-main">
-                        <div className="scroll-box" ref="nav_container">
+                        <div className="scroll-box" ref={e=> this.nav_container = e}>
                             <ul className="E_f14" className="nav-item">
                                 { this.buildMenuList() }
                             </ul>

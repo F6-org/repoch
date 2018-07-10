@@ -13,10 +13,10 @@
   ],
   "license": "MIT",
   "main": "index",
-  "name": "wbpay-repoch/cookie",
+  "name": "wbpay-repoch/navigation",
   "repository": {
     "type": "git",
-    "url": "https://github.com/F6-org/repoch/cookie.git"
+    "url": "https://github.com/F6-org/repoch/navigation.git"
   },
   "scripts": {},
   "version": "0.1.0"
