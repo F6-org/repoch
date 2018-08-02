@@ -47,6 +47,7 @@ export function historyBackAddUrl(addUrl, curUrl = window.location.href) {
         }
     };
 }
+
 /*
  * 生成目标页地址
  * 用于保留当前页面url query
@@ -85,4 +86,38 @@ export function generateUrl(url = "", addition = {}, reserve = []) {
 
         });
     }
+}
+/*
+ * 打开用户profile页 
+ * @params uid
+ * 
+ */
+export function openUserProfile(uid){
+    if(!uid){
+        console.warn('no Params: uid');
+        return
+    } 
+    let url = `http://weibo.com/${uid}/profile`
+
+    if(/__weibo__/.test(window.navigator.userAgent)){
+        url = `sinaweibo://userinfo?uid=${uid}`
+    }
+    window.location.href = url
+}
+
+/*
+ * 端外呼起客户端 
+ * @params url
+ * 
+ */
+export function openClient(url){
+    window.location.href = [
+        'https://m.weibo.cn/feature/openapp?scheme=',
+        encodeURIComponent([
+            'sinaweibo://browser?url=',
+            encodeURIComponent(url)
+        ].join('')),
+        '&yingyongbao=1&url=',
+            encodeURIComponent(url)
+    ].join('');
 }

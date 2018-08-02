@@ -8,8 +8,7 @@
   "description": "cookie API",
   "devDependencies": {},
   "keywords": [
-    "encrypt",
-    "crc32"
+    "cookie"
   ],
   "license": "MIT",
   "main": "index",

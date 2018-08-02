@@ -5,11 +5,11 @@
   "bundleDependencies": false,
   "dependencies": {},
   "deprecated": false,
-  "description": "cookie API",
+  "description": "scheme navigation API",
   "devDependencies": {},
   "keywords": [
-    "encrypt",
-    "crc32"
+    "scheme",
+    "navigation"
   ],
   "license": "MIT",
   "main": "index",
