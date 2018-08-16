@@ -1,0 +1,20 @@
+{
+  "name": "wbpay-repoch",
+  "version": "0.3.0",
+  "description": "加载中组件",
+  "main": "index.js",
+  "dependencies": {
+    "prop-types": "15.5.10",
+    "react": "16.0.0",
+    "react-dom": "16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.intra.weibo.com/repoch/loading.git"
+  },
+  "keywords": [
+    "loading"
+  ],
+  "author": "wbpay-repoch",
+  "license": "MIT"
+}
