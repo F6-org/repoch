@@ -16,13 +16,15 @@ export default class NewSlider extends React.Component {
         stopPropagation: PropTypes.bool,    // 阻止事件冒泡
         reinitSwipeOnUpdate : PropTypes.bool,   // 组件更新时是否重新初始化
         wrapperStyles: PropTypes.object,    // slider外层样式
+        wrapperClass: PropTypes.string,    // slider外层类名
         containerStyles: PropTypes.object,  // 容器样式
         sliderStyles: PropTypes.object,  // 样式
         shouldUpdate: PropTypes.func,   // 自定义是否重绘方法
         onSliderChange: PropTypes.func,   // slider切换时的回调函数
         transitionEnd: PropTypes.func,   // 动画执行后的回调函数
         isInSlider: PropTypes.func,     // 是否在slider内部滑动
-        withDotted: PropTypes.bool      // 是否需要显示点点点
+        withDotted: PropTypes.bool,      // 是否需要显示点点点
+        dotsWrapClass: PropTypes.string, //底部滚动点点点的样式
     }
 
     static defaultProps = {
@@ -139,7 +141,7 @@ export default class NewSlider extends React.Component {
             }
         });
         return (
-            <div className="dots_wrapper" >
+            <div className={`dots_wrapper ${this.props.dotsWrapClass}`} >
                 { children }
             </div>
         )
@@ -148,7 +150,7 @@ export default class NewSlider extends React.Component {
     render() {
         return (
             <div  ref={e=> this.dom = e} style={ Object.assign({}, this.props.containerStyles) } className="slider-n-container">
-                <div style={ Object.assign({}, this.props.wrapperStyles) } className="slider-n-wrapper" >
+                <div style={ Object.assign({}, this.props.wrapperStyles) } className={`slider-n-wrapper ${this.props.wrapperClass}`} >
                     { this.buildSliders() }
                 </div>
                 { this.buildDots() }
@@ -156,6 +158,3 @@ export default class NewSlider extends React.Component {
         );
     }
 }
-
-
-
