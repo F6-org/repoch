@@ -1,0 +1,95 @@
+// @import "../../style/var.style";
+//弹性flex
+@mixin flexLayout($direction: row){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: $direction wrap;
+  }
+
+.c-toast-root {
+    position: relative;
+    width: 3.06rem;
+    // height: 2.3rem;
+    border-radius: .06rem;
+    padding: .54rem 0 .68rem; 
+    z-index: -1;
+    opacity: 0;
+    transform: scale(.9);
+    transition: all .3s cubic-bezier(0.23, 1, 0.32, 1) ;
+    // transition: opacity .3s ease-in-out ,
+    //             z-index .3s ease-in-out ,
+    //             left 0 ease .3s;
+    @include flexLayout(column);
+    .icon {
+        width: .74rem;
+        height: .74rem;
+        margin-bottom: .16rem;
+        .i-icon {
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center; 
+            &.icon-info-circle {
+                background-image: url('./images/icon-info-circle.png');
+            }
+            &.icon-check-circle {
+                background-image: url('./images/icon-check-circle.png');
+            }
+            &.icon-error-circle {
+                background-image: url('./images/icon-error-circle.png');
+            }
+            &.icon-loading {
+                background-image: url('./images/icon-error-circle.png');
+                animation: loading linear 1s infinite;
+                @keyframes loading {
+                    from {
+                        transfrom: rotate(0deg)
+                    }
+                    to {
+                        transform: rotate(-360deg)
+                    }
+                }
+            }
+        }
+    }
+    .text {
+        width: 100%;
+        padding: 0 .21rem;
+        line-height: .4rem;
+        text-align: center;
+        font-size: .28rem;
+        overflow: hidden; // white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    * {
+        color: #fff;
+    }
+}
+
+.c-toast-wrapper {
+    position: fixed;
+    top: 0;
+    left: 1000%;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    @include flexLayout(column);
+    &.in{
+        left: 0;
+        z-index: 888;
+        transition: left 0s linear 0s,
+                    z-index 0s linear 0s;
+        .c-toast-root{
+            z-index: 889;
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+    &.out{
+        transition: left 0s linear .3s,
+                    z-index 0s linear .3s;
+    }
+}
