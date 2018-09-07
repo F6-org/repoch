@@ -116,7 +116,7 @@ export default class ListView extends React.Component {
             this.disablePullUp(true);
             this.footer.className = 'loader';
             this.footer.innerHTML = `<p class='non_cont'>${this.props.content}</p>`;
-            this.footer.style.height = this.props.threshold * 1.25 + 'px';
+            this.footer.style.height = this.props.threshold * 1.25 * 2 * 0.01 + 'rem';
         } else {
             this.disablePullUp(false);
             this.footer.className = 'loader';
@@ -125,7 +125,7 @@ export default class ListView extends React.Component {
                     '<em class=' + "pull-loading" + '></em>' +
                     '<span>加载中...</span>' +
                 '</div>';
-            this.footer.style.height = this.props.threshold + 'px';
+            this.footer.style.height = this.props.threshold * 2 * 0.01 + 'rem';
         }
     }
 
@@ -259,7 +259,7 @@ export default class ListView extends React.Component {
             } else if (overY > 50) {
                 offsetY = threshold + 50 + (overY - 50) * 0.5;
             }
-            this.header.style.height = offsetY + 'px';
+            this.header.style.height = offsetY * 2 * 0.01 + 'rem';
             coords.status = this.processLoaderStatus(PULLED_DOWN, offsetY, coords.status, true);
         } else {
             coords.blockY = stopY;
@@ -333,7 +333,7 @@ export default class ListView extends React.Component {
 
             target.style[transition] = 'height ' + duration + 'ms';
             setTimeout(function() {
-                target.style.height = adjustHeight + 'px';
+                target.style.height = adjustHeight * 2 * 0.01 + 'rem';
             }, 0);
         } else {
             this.handleTransitionEnd(orient, 0);
