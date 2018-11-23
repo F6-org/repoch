@@ -14,6 +14,10 @@ export function schemekk(url) {
     return "sinaweibo://kk?url=" + encodeURIComponent(url);
 }
 
+export function schemeclose(url){
+    return "sinaweibo://browser/close?scheme=" + encodeURIComponent(url)
+}
+
 export function weiboShare(content, pics = []) {
     let picList = [].concat(pics).map(fid => {
         return {
