@@ -12,13 +12,13 @@ class Mask extends React.Component {
     componentDidMount() {
     }
 
-    // componentWillUnmount() {
-    //     window.removeEventListener('resize', this.handleResize.bind(this));
-    // }
+    componentWillUnmount() {
+        this.refs.mask.removeEventListener('touchmove', this.handleMove)
+    }
 
-    // componentDidMount() {
-    //     window.addEventListener('resize', this.handleResize.bind(this));
-    // }
+    componentDidMount() {
+        this.refs.mask.addEventListener('touchmove', this.handleMove)
+    }
 
     componentDidUpdate() {
         document.body.style.overflow = this.props.show ? 'hidden' : ""
@@ -28,13 +28,19 @@ class Mask extends React.Component {
         e.preventDefault();
         e.stopPropagation();
 
-
         this.props.onClose && this.props.onClose(e);
         const {
             onClick = () => {}
         } = this.props;
         onClick();
         return false
+    }
+
+ 
+
+    handleMove(e){
+        e.stopPropagation();
+        e.preventDefault();
     }
 
     handleTouchMove(e) {
@@ -50,7 +56,7 @@ class Mask extends React.Component {
         const {disableBackClose} = this.props
 
         return (
-            <div className={"mask " + (this.props.show ? "in" : "out")}
+            <div ref="mask" className={"mask " + (this.props.show ? "in" : "out")}
                     onTouchMove={(e) => this.handleTouchMove(e)}
                     onClick={(e) => !disableBackClose && this.onClose(e)}
                  >
