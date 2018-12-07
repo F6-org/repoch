@@ -25,7 +25,7 @@ class ScrollCeiling extends Component {
 
     static propTypes = {
         showCeilingH: PropTypes.number.isRequired,
-        renderScrollCeilingTopNav: PropTypes.element.isRequired, //吸顶模块的渲染
+        // renderScrollCeilingTopNav: PropTypes.element.isRequired, //吸顶模块的渲染
         loadMoreDatas: PropTypes.func, // 页面底部上滑，加载更多内容的回调函数 
         showHandler: PropTypes.func, // 吸顶模块展示后的回调函数
         hideHandler: PropTypes.func, // 吸顶模块不展示后的回调函数
