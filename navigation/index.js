@@ -52,6 +52,20 @@ export function historyBackAddUrl(addUrl, curUrl = window.location.href) {
     };
 }
 
+export function historyBackAddUrlWhen(addUrl, judgement = (window.history.length <= 1)) {
+    const { history, location } = window;
+    const curUrl = location.href;
+    if (history.pushState && judgement) {
+        history.replaceState("newstate", null, curUrl);
+        history.pushState({}, null, curUrl);
+    }
+    window.onpopstate = e => {
+        if (e.state == "newstate") {
+            location.replace(addUrl);
+        }
+    };
+}
+
 /*
  * 生成目标页地址
  * 用于保留当前页面url query
@@ -69,10 +83,10 @@ export function generateUrl(url = "", addition = {}, reserve = []) {
         reserve = [].concat(reserve)
 
     addQuery(searchString.substr(1, searchString.length))
-    
+
     target[1] && addQuery(target[1], false)
 
-    addition = Object.assign(addition, query) 
+    addition = Object.assign(addition, query)
 
     return target[0] + "?" + Object.keys(addition).map(k => `${k}=${addition[k]}`).join("&");
 
@@ -100,7 +114,7 @@ export function openUserProfile(uid){
     if(!uid){
         console.warn('no Params: uid');
         return
-    } 
+    }
     let url = `http://weibo.com/${uid}/profile`
 
     if(/__weibo__/.test(window.navigator.userAgent)){
@@ -122,6 +136,6 @@ export function openClient(url){
             encodeURIComponent(url)
         ].join('')),
         '&yingyongbao=1&url=',
-            encodeURIComponent(url)
+        encodeURIComponent(url)
     ].join('');
 }
