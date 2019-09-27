@@ -10,7 +10,7 @@
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Mask from '../new-mask/index';
+import Mask from '../new-mask';
 import './index.style.scss';
 
 function noop() { }
