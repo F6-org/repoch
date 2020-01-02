@@ -1,0 +1,22 @@
+{
+  "author": {
+    "name": "wbpay-repoch"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "页面跳转功能函数",
+  "devDependencies": {},
+  "keywords": [
+    "same-origin"
+  ],
+  "license": "MIT",
+  "main": "index",
+  "name": "wbpay-repoch/is-same-origin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xieyuqi007/repoch/is-same-origin.git"
+  },
+  "scripts": {},
+  "version": "0.1.0"
+}

@@ -1,0 +1,38 @@
+{
+  "author": {
+    "name": "wbpay-repoch"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "15.5.8",
+    "react": "15.5.0",
+    "react-dom": "15.5.0"
+  },
+  "deprecated": false,
+  "description": "模块注入组件",
+  "engines": {
+    "node": ">=5.0 <6"
+  },
+  "homepage": "https://github.com/F6-org/repoch.git",
+  "keywords": [
+    "模块注入"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "wbpay-repoch/pipe",
+  "repository": {
+    "type": "git",
+    "url": "git+http://git.intra.weibo.com/repoch/pipe.git"
+  },
+  "scripts": {},
+  "version": "0.1.1",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">=5.0 <6"
+      },
+      "pkgid": "wbpay-repoch/pipe@0.1.1"
+    }
+  ]
+}

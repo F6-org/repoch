@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/ua-detector/index.js"],"names":["detect","isWeibo"],"mappings":";;;;;;AAAA;;;;AACA;;;;;;kBAEe;AACXA,4BADW;AAEXC;AAFW,C","file":"index.js","sourcesContent":["import detect from 'detect';\nimport isWeibo from 'is-weibo';\n\nexport default {\n    detect,\n    isWeibo\n};\n\n"]}

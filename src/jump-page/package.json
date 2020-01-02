@@ -1,0 +1,27 @@
+{
+  "author": {
+    "name": "wbpay-repoch"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "wbpay-repoch/is-same-origin": "^0.1.0",
+    "wbpay-repoch/react-router": "^3.0.5",
+    "wbpay-repoch/ua-detector": "^0.1.0"
+  },
+  "deprecated": false,
+  "description": "页面跳转功能函数",
+  "devDependencies": {},
+  "keywords": [
+    "router",
+    "react"
+  ],
+  "license": "MIT",
+  "main": "index",
+  "name": "wbpay-repoch/jump-page",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xieyuqi007/repoch/jump-page.git"
+  },
+  "scripts": {},
+  "version": "0.1.1"
+}

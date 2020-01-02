@@ -1,0 +1,25 @@
+{
+  "author": {
+    "name": "wbpay-repoch"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "dom-helpers": "2.4.0"
+  },
+  "deprecated": false,
+  "description": "weibo的jsbridge封装",
+  "keywords": [
+    "weibo-jsbridge"
+  ],
+  "homepage": "http://git.intra.weibo.com/repoch/weibo-jsbridge.git",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "wbpay-repoch/weibo-jsbridge",
+  "repository": {
+    "type": "git",
+    "url": "git+http://git.intra.weibo.com/repoch/weibo-jsbridge.git"
+  },
+  "scripts": {},
+  "version": "0.1.0"
+}
+

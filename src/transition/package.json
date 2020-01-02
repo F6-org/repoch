@@ -1,0 +1,39 @@
+{
+  "author": {
+    "name": "wbpay-repoch"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "dom-helpers": "2.4.0",
+    "prop-types": "15.5.8",
+    "react": "15.5.0",
+    "react-dom": "15.5.0"
+  },
+  "deprecated": false,
+  "description": "动画渲染组件",
+  "engines": {
+    "node": ">=5.0 <6"
+  },
+  "homepage": "http://git.intra.weibo.com/repoch/transition.git",
+  "keywords": [
+    "模块注入"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "wbpay-repoch/transition",
+  "repository": {
+    "type": "git",
+    "url": "git+http://git.intra.weibo.com/repoch/transition.git"
+  },
+  "scripts": {},
+  "version": "0.1.3",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">=5.0 <6"
+      },
+      "pkgid": "wbpay-repoch/transition@0.1.3"
+    }
+  ]
+}

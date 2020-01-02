@@ -1,0 +1,29 @@
+{
+  "author": {
+    "name": "wbpay-repoch"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "wbpay-repoch/encrypt": "^0.1.0"
+  },
+  "deprecated": false,
+  "description": "字符串格式化",
+  "devDependencies": {},
+  "keywords": [
+    "format",
+    "图床",
+    "json-to-query",
+    "encodeHTML",
+    "query-to-json",
+    "decodeHTML"
+  ],
+  "license": "MIT",
+  "main": "index",
+  "name": "wbpay-repoch/format",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xieyuqi007/repoch/format.git"
+  },
+  "scripts": {},
+  "version": "0.1.3"
+}

@@ -1,0 +1,25 @@
+{
+  "author": {
+    "name": "wbpay-repoch"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "wbpay-repoch/history": "3.2.1"
+  },
+  "deprecated": false,
+  "description": "自定义的react-router",
+  "devDependencies": {},
+  "keywords": [
+    "router",
+    "react"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "name": "wbpay-repoch/react-router",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xieyuqi007/repoch/react-router.git"
+  },
+  "scripts": {},
+  "version": "3.0.5"
+}

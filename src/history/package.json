@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "wbpay-repoch"
+  },
+  "browserify": {},
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "自定义的history",
+  "devDependencies": {},
+  "files": [
+    "lib",
+    "umd"
+  ],
+  "keywords": [
+    "history",
+    "location"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "name": "@wb-repoch/history",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xieyuqi007/repoch/history.git"
+  },
+  "scripts": {},
+  "version": "3.2.1"
+}

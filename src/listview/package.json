@@ -1,0 +1,25 @@
+{
+  "name": "@repoch/listview",
+  "version": "0.3.1",
+  "description": "列表无限加载组件",
+  "main": "index.js",
+  "dependencies": {
+    "@repoch/dom-helper": "^0.1.5",
+    "@repoch/with-styles": "^0.3.0",
+    "prop-types": "15.5.10",
+    "react": "16.0.0",
+    "react-dom": "16.0.0"
+  },
+  "scripts": {
+  },
+  "keywords": [
+    "listview"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+http://git.intra.weibo.com/repoch/listview.git"
+  },
+  "homepage": "http://git.intra.weibo.com/repoch/listview.git",
+  "author": "repoch",
+  "license": "MIT"
+}

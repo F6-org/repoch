@@ -1,0 +1,19 @@
+.scroll-page-root {
+    width: 100%;
+    height: 100vh;
+    .scroll-page-wrapper{
+        width: 100%;
+        height: auto;
+        max-height: none;
+    }
+    .fixed-top {
+        display: none;
+        &.show {
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+    }
+}

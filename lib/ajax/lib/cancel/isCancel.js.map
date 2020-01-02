@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/ajax/lib/cancel/isCancel.js"],"names":["isCancel","value","__CANCEL__"],"mappings":"AAAA;;;;;kBAEwBA,Q;AAAT,SAASA,QAAT,CAAkBC,KAAlB,EAAyB;AACtC,SAAO,CAAC,EAAEA,SAASA,MAAMC,UAAjB,CAAR;AACD","file":"isCancel.js","sourcesContent":["'use strict';\n\nexport default function isCancel(value) {\n  return !!(value && value.__CANCEL__);\n};\n"]}

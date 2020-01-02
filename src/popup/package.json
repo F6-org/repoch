@@ -1,0 +1,39 @@
+{
+  "author": {
+    "name": "wbpay-repoch"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "wbpay-repoch/modal": "^0.3.0",
+    "prop-types": "15.5.10",
+    "react": "16.0.0",
+    "react-dom": "16.0.0"
+  },
+  "deprecated": false,
+  "description": "列表弹层组件",
+  "engines": {
+    "node": ">=5.0 <6"
+  },
+  "homepage": "http://git.intra.weibo.com/repoch/popup.git",
+  "keywords": [
+    "列表弹层"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "wbpay-repoch/popup",
+  "repository": {
+    "type": "git",
+    "url": "git+http://git.intra.weibo.com/repoch/popup.git"
+  },
+  "scripts": {},
+  "version": "0.3.0",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">=5.0 <6"
+      },
+      "pkgid": "wbpay-repoch/popup@0.3.0"
+    }
+  ]
+}
