@@ -31,7 +31,7 @@
   "name": "wbpay-repoch",
   "scripts": {
     "test": "ava",
-    "build": "./node_modules/.bin/babel src --out-dir lib --source-maps --extensions .es6,.es,.jsx --copy-files"
+    "build": "./node_modules/.bin/babel src --out-dir lib --source-maps --extensions .es6,.es,.jsx,.js --copy-files"
   },
   "version": "2.0.0",
   "devDependencies": {
