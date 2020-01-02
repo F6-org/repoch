@@ -1,3 +1,7 @@
+##开发说明
+####根据社区规范，src为开发目录，lib为编译后文件。开发完毕执行打包命令
+####开发完毕后需更新版本号，当前功能优化改第三位数字，新功能改第二位数字，改版改第三位数字
+
 ## Demo
 ```javascript
 //现有组件调用DEMO
@@ -120,7 +124,10 @@ npm install
 npm test
 ```
 
-
+##Build
+```javascript
+npm run build
+```
 ## scheme 相关
 
 ```javascript
