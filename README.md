@@ -5,13 +5,13 @@ import './index.style.scss';
 import React, {Component} from 'react';
 import {Link} from 'react-router';
 import setTitle from '../../containers/setTitle';
-import Toast from 'wbpay-repoch/toast';
-import TopNav from 'wbpay-repoch/topNav';
-import Popup from 'wbpay-repoch/popup';
-import UploadPic from 'wbpay-repoch/upload';
-import Alert from 'wbpay-repoch/alert';
-import NewSlider from 'wbpay-repoch/slider-n';
-import DatePicker from 'wbpay-repoch/date-picker';
+import Toast from 'wbpay-repoch/lib/toast';
+import TopNav from 'wbpay-repoch/lib/topNav';
+import Popup from 'wbpay-repoch/lib/popup';
+import UploadPic from 'wbpay-repoch/lib/upload';
+import Alert from 'wbpay-repoch/lib/alert';
+import NewSlider from 'wbpay-repoch/lib/slider-n';
+import DatePicker from 'wbpay-repoch/lib/date-picker';
 
 class Building extends Component {
 
